@@ -14,5 +14,9 @@ namespace TestExam
         {
             c = a + b;
         }
+        public void mul()
+        {
+            c = a - b;
+        }
     }
 }

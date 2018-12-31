@@ -8,13 +8,17 @@ namespace TestExam
 {
     class SumClass
     {
-        public int a = 0 , b = 0 , c = 0;
+        public float a = 0 , b = 0 , c = 0;
         
         public void summ()
         {
             c = a + b;
         }
         public void mul()
+        {
+            c = a * b;
+        }
+        public void min()
         {
             c = a - b;
         }
